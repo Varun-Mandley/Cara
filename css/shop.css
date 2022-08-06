@@ -1,0 +1,108 @@
+.wrap-2{background: url(../img/banner/b1.jpg)no-repeat center; height: 50vh; width: 100%; background-size: cover;}
+.shop-header{text-align: center; padding-top: 115px ;}
+.wrap-2 .shop-header h2{color: #fff;}
+.wrap-2 .shop-header p{color: #fff;}
+.wrap5{text-align: center;}
+.pagination a{height: 50px; width: 50px ; background-color: #088178; padding: 15px 20px; font-weight: 600; color: #fff; border-radius: 5px; font-size: 16px;}
+
+/* product page  */
+
+.single-pro-image{width: 95%; margin-top: 40px;}
+.small-img-group{display: flex; margin: 20px 0 ;}
+.small-img{margin: 0 2px;}
+.single-pro-detail{margin-top: 40px;}
+.single-pro-detail h6{font-size: 16px;}
+.single-pro-detail h4{padding: 30px 0;}
+.single-pro-detail h2{padding-bottom: 30px;}
+.single-pro-detail select{margin-bottom: 30px;}
+.single-pro-detail label input{width: 50px;height: 47px; font-size: 16px; padding-left: 10px; margin-right: 10px;}
+.single-pro-detail label input:focus{outline: none;}
+.single-pro-detail button{background-color: #088178; color: #fff;}
+.normal{padding: 15px 30px;  border-radius: 5px; border: none; outline: none; font-weight: 600;}
+.single-pro-detail p{font-size: 18px; line-height: 25px;}
+
+
+/* blog page css */
+
+.pagination{margin-top: 30px;}
+#blog-header{background: url(../img/banner/b19.jpg)no-repeat ;height: 40vh; width: 100%; background-size: cover;}
+.blog-box {padding-top: 140px;}
+.dec{padding-top: 100px;}
+.blog-detail{padding-top: 220px; margin-right: 40px; }
+.blog-box img{width: 100%; height: 350px; object-fit: cover;}
+.blog-detail h4{font-size: 26px; padding-bottom: 20px;}
+.blog-detail a{font-size: 11px; font-weight: 700; color: #000; position: relative; transition: 0.3s;}
+.blog-detail a:hover{color: #088178;}
+.blog-detail a::after{content: ''; width: 50px; height: 1px; background-color: #000; position: absolute; top: 4px; left: 110px;}
+.blog-detail a:hover::after{background-color: #088178;}
+.replace{position: relative;}
+.replace h1{font-size: 70px; font-weight: 700; position: absolute; top: 100px; left: -530px; color: #c9cbce; z-index: -9;} 
+.shop-header h2{color: #fff;}
+.shop-header p{color: #fff;}
+
+
+@media screen and (max-width:1140px){
+    .replace h1{font-size: 70px; font-weight: 700; position: absolute; top: 100px; left: -420px; color: #c9cbce; z-index: -9;} 
+    .shop-header h2{color: #fff;}
+    .shop-header p{color: #fff;}
+}
+@media screen and (max-width:980px){
+    .replace h1{font-size: 70px; font-weight: 700; position: absolute; top: 100px; left: -385px; color: #c9cbce; z-index: -9;} 
+    .shop-header h2{color: #fff;}
+    .shop-header p{color: #fff;}
+    
+    #blog-header{ height: 50vh;}
+    .shop-header{padding-top: 50px;}
+    .wrap-2{height: 40vh;}
+    .about-header{padding: 55px;}
+}
+@media screen and (max-width:768px){
+    .replace h1{font-size: 70px; font-weight: 700; position: absolute; top: 100px; left: -300px; color: #c9cbce; z-index: -9;} 
+    #blog-header{background: url(../img/banner/b19.jpg)no-repeat ;height: 30vh; width: 100%; background-size: cover;}
+    .wrap-2{height: 25vh;}
+   
+}
+
+@media screen and (max-width:480px){
+    .replace h1 { font-size: 70px; font-weight: 700;  position: absolute;  top: -385px; color: #c9cbce; left: 20px; z-index: -9;}
+    .blog-detail { padding-top: 30px;}
+    .shop-header{padding-top: 50px; ;}
+    .shop-header h2{color: #fff;}
+    .shop-header p{color: #fff;}
+    .wrap-2{height: 25vh;}
+    #about-header{height: 25vh;}
+    #blog-header{height: 30vh;}
+    
+}
+
+
+/* sproduct ani  */
+.box{position: relative; }
+.over-img{background: url(../img/products/f1.jpg) no-repeat ; height: 550px; width: 550px;background-color: #fff; border: 1px solid; position: absolute; border-radius: 10px; overflow: hidden;}
+
+
+/* about header  */
+
+#about-header{background: url(../img/about/banner.png) no-repeat center/cover; height: 40vh;}
+.head img{width: 100%;}
+.head{padding-top: 50px;}
+.head-detail{padding-top: 80px;}
+.about-app{text-align: center;}
+.about-app a{text-decoration: dashed;}
+.about-app .video{width: 70%; height: 100%; margin: 30px auto 0 auto;} 
+.about-app .video video{width: 100%; height: 100%; border-radius: 20px;} 
+
+@media screen and (max-width:480px){   
+    .wrap-2{height: 25vh;}
+    #about-header{height: 25vh;}   
+}
+@media screen and (max-width:768px){
+   .about-header{padding-top: 85px;}
+   #about-header{height: 25vh;}
+}
+
+
+
+
+
+

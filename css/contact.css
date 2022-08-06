@@ -1,0 +1,55 @@
+.map iframe{width: 100%;}
+.map{padding-top: 50px;}
+.contact-detail{padding-top: 50px;}
+.contact-detail h2{padding: 20px 0;}
+.contact-detail h3{padding: 20px 0; font-size:26px; line-height: 35px;}
+.contact-detail li{list-style: none; display: flex;}
+.contact-detail li span.fa{padding-right: 10px; font-size: 14px;}
+.map{ height: 400px;}
+.map iframe{width: 100%; height: 100%;}
+
+.form-detail form{display:flex; flex-direction: column; }
+.form-detail {margin-top: 50px;}
+.form-detail form span{font-size: 12px;}
+.form-detail form h2{font-size: 26px; padding: 20px 0; line-height: 26px;}
+.form-detail form input,textarea{width: 100%; padding: 12px 15px; margin-bottom: 20px; border: 1px solid #e1e1e1; outline: none;}
+.form-detail form button{width: 35%; margin-top: 20px; background-color: #088178; color: #fff;}
+.people{margin-top: 50px; }
+.people div{padding-bottom: 25px; align-items: flex-end; display: flex;}
+.people div img{width: 65px; height: 65px; object-fit: cover; margin-right: 15px;}
+.people div p{margin: 0; font-size: 13px; line-height: 25px;}
+.people div p span{display: block; font-size: 16px; color: #000; font-weight: 600;}
+.people div img{margin-bottom: 30px;}
+/* .wrap4 .row{margin: 30px; padding: 80px; border: 1px solid #e1e1e1; } */
+
+@media screen and(max-width:980px) {
+    .shop-header {
+        padding-top: 50px;
+    }
+}
+.sec{margin: 40px 0;}
+.rec{padding: 40px 0;}
+.cart-1{overflow-x: auto;}
+.cart-1 table img{width:70px;}
+.cart-1 table {width: 100%; border-collapse: collapse; table-layout: fixed; white-space: nowrap;}
+.cart-1 table td:nth-child(1){width: 100px; text-align: center;}
+.cart-1 table td:nth-child(2){width: 150px; text-align: center;}
+.cart-1 table td:nth-child(3){width: 250px; text-align: center;}
+.cart-1 table td:nth-child(4),table td:nth-child(5),table td:nth-child(6){width: 150px; text-align: center;}
+.cart-1 table input{width: 70px; padding: 10px 5px 10px 15px;} 
+.cart-1 table thead{border: 1px solid #e2e9e1; border-left: none;border-right: none;}
+.cart-1 table thead td{font-weight: 700; font-size: 13px; padding: 18px 0;}
+.cart-1 table tbody tr td{padding-top: 15px;}
+.coupon div{margin-top: 20px; }
+.coupon input{padding: 10px 20px;  border-radius: 5px;  outline: none; font-weight: 600; width: 60%; border: 1px solid;}
+.coupon button{background-color: #088178; color: #fff; padding: 12px 20px;}
+.subtotal{border: 1px solid #e2e9e1; padding: 30px; margin-bottom: 30px; }
+.subtotal table{border: 1px solid; width: 100%; border-collapse: collapse;}
+.subtotal table tr td{padding: 10px 20px; border: 1px solid #e2e9e1;}
+.subtotal h3{padding-bottom: 10px;}
+.subtotal button{margin-top: 10px; color: #fff; background-color: #088178;}
+
+@media screen and (max-width:768px){
+   /* .cart{overflow-x: auto;} */
+   
+}

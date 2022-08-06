@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This is a E-commerce site with Affordable price.">
+  <title>Cara E-commerce</title>
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/shop.css" />
+</head>
+<style>
+    #magnifying_area{
+     width:100%;
+     height:500px;
+     overflow:hidden;
+     position:relative;
+    }
+    #magnifying_img{
+     max-width:100%;
+     min-width:100%;
+     position:absolute;
+     Left:50%;
+     top:50%;
+     transform:translate(-50%,-50%);
+    }
+</style>
+<body>
+<div class="wrap-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <a href=""><img src="./img/logo.png" alt="image"></a>
+            </div>
+            <div class="col-10">
+                <div class="navbar ">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a class="log-in" href="#">Login</a></li>
+                            <li><a href="cart.html" class="bag"><span class="fa fa-shopping-bag"></span></a></li>
+                            <a href="" class="close"><span class="fa fa-close"></span></a>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="mobile ">
+                    <div class="mob">
+                        <a href=""><span class="fa fa-shopping-bag"></span></a>
+                        <a class="bar" href=""><span class="fa fa-outdent"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="wrap2">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-p-12">
+                <div class="single-pro-image">
+                    <div id="magnifying_area">
+                        <img src="img/products/f1.jpg" width="100%" class="main-image" alt="image"  id="magnifying_img">
+                    </div>
+                    <div class="small-img-group">
+                        <div class="small-img">
+                            <img src="img/products/f1.jpg" class="small" width="100%" alt="image">
+                        </div>
+                        <div class="small-img">
+                            <img src="img/products/f2.jpg" class="small" width="100%" alt="image">
+                        </div>
+                        <div class="small-img">
+                            <img src="img/products/f3.jpg" class="small" width="100%" alt="image">
+                        </div>
+                        <div class="small-img">
+                            <img src="img/products/f4.jpg" class="small" width="100%" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-p-12">  
+                <div class="single-pro-detail">
+                    <!-- <div class="box">
+                        <div class="over-img"></div>
+                    </div> -->
+                    <h6>Home/T-shirt</h6>
+                    <h4>Men's Fashion T-shirts</h4>
+                    <h2>$139.00</h2>
+                    <select>
+                        <option selected disabled>--Select Size--</option>
+                        <option>XXXL</option>
+                        <option>XXL</option>
+                        <option>XL</option>
+                        <option>LARGE</option>
+                        <option>SMALL</option>
+                    </select>
+                    <div>
+                        <label> <input type="number" min="0" max="10" value="1"></label>
+                        <button class="normal add-cart">Add To Cart</button>
+                    </div>
+                    <h4>Product details</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fugit aliquam ratione
+                        repudiandae placeat deleniti vero itaque, alias explicabo animi earum fuga, quisquam
+                        obcaecati officiis maiores cupiditate voluptatum numquam quidem. Lorem ipsum dolor sit, amet
+                        consectetur adipisicing elit. Quod, architecto? Minima expedita cumque dolor tempora porro
+                        beatae adipisci quae quia.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="wrap-4">
+    <div class="container">
+        <div class="heading">
+            <h2>Featured products</h2>
+            <p>Summer collection new modern design</p>
+        </div>
+        <div class="row">
+            <div class="col-3 col-m-6 col-p-12">
+                <div class="item-row">
+                    <div class="item ">
+                        <img class="item-image" src="img/products/f1.jpg" alt="image">
+                    </div>
+                    <div class="des">
+                        <span>ADIDAS</span>
+                        <h5 class="item-title">printed shirts</h5>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4 class="item-price">$78</h4>
+                    </div>
+                    <a href="#" class="add-cart"><span class="fa fa-shopping-cart cart"></span></a>
+                </div>
+            </div>
+            <div class="col-3 col-m-6 col-p-12">
+                <div class="item-row">
+                    <div class="item">
+                        <img src="img/products/f2.jpg" alt="image">
+                    </div>
+                    <div class="des">
+                        <span>US POLO</span>
+                        <h5>printed shirts</h5>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#" class="add-cart"><span class="fa fa-shopping-cart cart"></span></a>
+                </div>
+            </div>
+            <div class="col-3 col-m-6 col-p-12">
+                <div class="item-row">
+                    <div class="item">
+                        <img src="img/products/f3.jpg" alt="image">
+                    </div>
+                    <div class="des">
+                        <span>PETER ENGLAND</span>
+                        <h5>printed shirts</h5>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#" class="add-cart"><span class="fa fa-shopping-cart cart"></span></a>
+                </div>
+            </div>
+            <div class="col-3 col-m-6 col-p-12">
+                <div class="item-row">
+                    <div class="item">
+                        <img src="img/products/f4.jpg" alt="image">
+                    </div>
+                    <div class="des">
+                        <span>Tommy Hilfiger</span>
+                        <h5>printed shirts</h5>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#" class="add-cart"><span class="fa fa-shopping-cart cart"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="wrap-9">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-p-12">
+                <div class="newsletter">
+                    <div class="newstext">
+                        <h4>Sign Up For newsletter</h4>
+                        <p>Get E-mail updates about out latest shop and <span>special offers.</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-p-12">
+                <div class="newsletter-1">
+                    <div class="form">
+                        <label><input type="text" placeholder="your email address"></label>
+                        <button class="btn">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-4 col-p-12">
+          <div class="content">
+            <img src="img/logo.png" alt="image" />
+            <h4>contact</h4>
+            <address>
+              <strong>Address:</strong><p>562 Wellington Road, street 32, San Francisco</p>
+          </address>
+            <p>phone:+01 2222 365 /(+91) 01 2345 6789</p>
+            <p>Hours:10:00-18:00, Mon-Sat</p>
+            <div class="follow">
+              <h4>Follow us</h4>
+              <div class="icon">
+                <a href=""><span class="fa-brands fa-facebook"></span></a>
+                <a href=""><span class="fa-brands fa-twitter"></span></a>
+                <a href=""><span class="fa-brands fa-instagram"></span></a>
+                <a href=""><span class="fa-brands fa-pinterest"></span></a>
+                <a href=""><span class="fa-brands fa-youtube"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2 col-p-6">
+          <div class="content space">
+            <h4>About</h4>
+            <ul>
+              <li><a href="">about us</a></li>
+              <li><a href="">Delivery Information</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Terms & Condition</a></li>
+              <li><a href="">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-2 col-p-6">
+          <div class="content space">
+            <h4>My Account</h4>
+            <ul>
+              <li><a href="">Sign In </a></li>
+              <li><a href="">View cart</a></li>
+              <li><a href="">My Wishlist</a></li>
+              <li><a href="">Track My Order</a></li>
+              <li><a href=""></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-4 col-p-12">
+          <div class="install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <a href="" aria-label="app store"><img src="img/pay/app.jpg" alt="image"/></a>
+            <a href="" aria-label="play store"><img src="img/pay/play.jpg" alt="image"/></a>
+            <p>Secured Payment Gateway</p>
+            <img src="img/pay/pay.png" alt="image" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="wrap-11" >
+    <div class="container">
+        <div class="row">
+            <div class="col-12 account">
+                <h2 class="create">LOG-IN</h2>
+                <form autocomplete="off" class="form">
+                    <table>
+                        <tr><td><input type="text"  placeholder="UserName" required></td></tr>
+                        <tr><td><input type="password"  placeholder="Password" required></td></tr>
+                        <tr><td><button  type="submit">Login</button></td></tr>
+
+                    </table>
+                </form>
+                <p class="para" >Not a member?<a class="signUp" href="#" >SignUp</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="wrap-12">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 account-1">
+                <h2 class="create" >Create An Account</h2>
+                <form autocomplete="off" class="form">
+                        <input type="text"  placeholder="Enter FullName" required> <br>
+                        <input type="email"  placeholder="Enter Email" required> <br>
+                        <input type="password"  placeholder="Enter Password" required> <br>
+                        <input type="password"  placeholder="Re-Enter Password" required> <br>
+                        <button  type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="main/jquery.js"></script>
+    <script>
+        var mainimg = document.querySelector(".main-image")
+        var smallimg = document.querySelectorAll(".small")
+
+        smallimg[0].onclick = function () {
+            mainimg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function () {
+            mainimg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function () {
+            mainimg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function () {
+            mainimg.src = smallimg[3].src;
+        }
+
+
+        // var box=document.querySelector(".box")
+        // var overbox=document.querySelector(".over-img")
+
+        // mainimg.addEventListener('mouseover',function () {
+        //     overbox.style.display="block";
+            
+        // })
+
+        // mainimg.addEventListener("mousemove",function (e) {
+        //     overbox.style.backgroundPosition=`${+(e.clientX-this.offsetLeft)/2}% ${(e.clientY-this.offsetTop)/2}%`;
+          
+        // })
+
+        // mainimg.addEventListener("mouseout",function () {
+        //     overbox.style.display="none";
+        // })
+
+        
+        let magnifying_area =document.getElementById("magnifying_area");
+        let magnifying_img=document.getElementById("magnifying_img");
+        magnifying_area.addEventListener("mousemove",function(e){
+            let X= e.clientX - magnifying_area.offsetLeft;
+            let Y= e.clientY - magnifying_area.offsetTop;
+            
+            let width=magnifying_area.offsetWidth;
+            let height=magnifying_area.offsetHeight;
+            
+            let posX= X / width*100
+            let posY= Y / height*100
+              
+            magnifying_img.style.transform='translate(-'+ posX+'% , -' +posY+'%) scale(2)'
+            // magnifying_img.style.transform='translate(-50%,-50%) scale(2)'
+        });             
+                    
+        magnifying_area.addEventListener("mouseleave",function(){
+            magnifying_img.style.transform='translate(-50% , -50%) scale(1)'
+        });
+   
+
+        
+
+        
+    </script>
+</body>
+
+</html>
